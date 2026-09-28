@@ -42,8 +42,7 @@ confidence maps (SegFormer) show attention concentrated on fire regions.
 ## What I learned
 - Under extreme class imbalance, high accuracy means nothing; overlap metrics do.
 - More spectral data isn't automatically better; fusion strategy matters.
-- [One honest thing from your own experience, e.g. the dtype bug or
-  comparing under identical settings]
+- instead of treating the lack of data as a breakpoint we took it as a research problem to elevate our work: can we train fire segmentation models with synthetic data. 
 
 ## What could be improved
 Richer fusion than channel concatenation, a controlled synthetic NIR
